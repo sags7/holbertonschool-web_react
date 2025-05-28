@@ -1,0 +1,9 @@
+# Ignore all dist folders
+dist/
+
+# If dist appears in subdirectories too
+**/dist/
+
+# Ignore all node_modules folders
+node_modules/
+**/node_modules/
