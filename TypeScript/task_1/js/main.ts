@@ -1,3 +1,5 @@
+import { number } from "yargs";
+
 interface Teacher {
   firstName: string;
   lastName: string;
@@ -5,4 +7,8 @@ interface Teacher {
   yearsOfExperience?: number;
   location: string;
   [key: string]: any;
+}
+
+interface Directors extends Teacher {
+  numberOfReports: number;
 }
